@@ -1,0 +1,36 @@
+.login {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__authContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.login__auth {
+  display: block;
+  width: 65px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.login__input {
+  border-radius: 5px;
+}
+
+.login__btn {
+  margin-top: 10px;
+}
+
+.login__note {
+  margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+.appContainer {
+  background-color: #7e11ff;
+  height: 100%;
+}
+
+.app {
+  //background-color: grey;
+  background-image: url(./../assets/images/Huangshan_mountains_in_China-2017_Bing_Desktop_Wallpaper_1920x1200.jpg);
+  min-height: 100vh;
+
+}
+
+.main {
+  display: flex;
+  //justify-content: center;
+  width: 100%;
+
+}

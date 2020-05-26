@@ -1,0 +1,43 @@
+.btnContainer {
+  padding: 10px 5px;
+}
+
+.btn {
+  background-color: inherit;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.btnContainer__input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 7px;
+}
+
+.btn__add,
+.btn__delete {
+  background-color: inherit;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn__add {
+  color: rgba(40, 128, 26, 0.8);
+}
+
+.btn__delete {
+  color: rgba(255, 24, 16, 0.8);
+}
+
+.btn__add:hover {
+  color: rgba(40, 128, 26, 0.55);
+}
+
+.btn__delete:hover {
+  color: rgba(255, 24, 16, 0.56);
+}

@@ -1,0 +1,38 @@
+.Header {
+  background-color: rgba(0, 0, 0, 0.37);
+  padding: 6px;
+  display: flex;
+}
+
+.Header__nav {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.nav__item {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.Header__profile {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Header__name {
+  color: #08c;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.Header__btn {
+  background-color: inherit;
+  border-style: none;
+}
+
+.Header__icon {
+  font-size: 18px;
+  color: #08c;
+}

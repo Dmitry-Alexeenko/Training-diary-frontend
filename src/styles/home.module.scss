@@ -1,0 +1,71 @@
+.boardContainer {
+  width: 930px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.board__title {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.board__content {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.boardItem {
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.37);
+  word-wrap: break-word;
+
+  & a {
+    display: block;
+    color: #2466cc;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+  }
+}
+
+.boardItem__btn {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.69);
+  width: 30px;
+  height: 30px;
+}
+
+.boardItem__btn span {
+  transition: all 0.15s linear;
+}
+
+.boardItem__btn:hover span {
+  color: red;
+  transform: scale(1.3, 1.3);
+}
+
+.boardItem:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.boardItem:last-child {
+  padding: 0;
+}

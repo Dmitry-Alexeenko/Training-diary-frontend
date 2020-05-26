@@ -1,0 +1,91 @@
+
+.board__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr) minmax(250px, 1fr) minmax(250px, 1fr) minmax(250px, 1fr) minmax(250px, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  align-items: start;
+}
+
+.list {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.37);
+  position: relative;
+}
+
+/*
+.list:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}*/
+.listContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.list__btn {
+  position: absolute;
+  cursor: pointer;
+  bottom: 7px;
+  right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.69);
+  width: 30px;
+  height: 30px;
+}
+
+.list__btn span {
+  transition: all 0.15s linear;
+}
+
+.list__btn:hover span {
+  color: red;
+  transform: scale(1.3, 1.3);
+}
+
+.board__btn {
+  background-color: inherit;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.board__btn:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+.board__input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn__add,
+.btn__delete {
+  background-color: inherit;
+  border-style: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.btn__add {
+  color: rgba(40, 128, 26, 0.8);
+}
+
+.btn__delete {
+  color: rgba(255, 24, 16, 0.8);
+}
+
+.btn__add:hover {
+  color: rgba(40, 128, 26, 0.55);
+}
+
+.btn__delete:hover {
+  color: rgba(255, 24, 16, 0.56);
+}
+

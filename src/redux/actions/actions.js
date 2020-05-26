@@ -1,0 +1,18 @@
+export  const actions = {
+    ADD_BOARDS : "todo/mainReducer/ADD-BOARDS",
+    ADD_NEW_BOARD : "todo/mainReducer/ADD-NEW-BOARD",
+    REMOVE_BOARD : "todo/mainReducer/REMOVE-BOARD",
+    SHOW_CURRENT_BOARD : "todo/mainReducer/SHOW-CURRENT-BOARD",
+    ADD_LIST : "todo/mainReducer/ADD-LIST",
+    REMOVE_LIST : "todo/mainReducer/REMOVE-LIST",
+    ADD_CARD : "todo/mainReducer/ADD-CARD",
+    DELETE_CARD : "todo/mainReducer/DELETE-CARD",
+    SHOW_CARD : "todo/mainReducer/SHOW-CARD",
+    CHANGE_NAME_BOARD : "todo/mainReducer/CHANGE-NAME-BOARD",
+    CHANGE_NAME_LIST : "todo/mainReducer/CHANGE-NAME-LIST",
+    CHANGE_NAME_CARD : "todo/mainReducer/CHANGE-NAME-CARD",
+    CHANGE_MESSAGE_CARD : "todo/mainReducer/CHANGE-MESSAGE-CARD",
+    SET_USER_DATA : "todo/mainReducer/SET-USER-DATA",
+    SET_INITIALIZED_SUCCESS : "todo/mainReducer/SET-INITIALIZED-SUCCESS",
+    TEST : "todo/mainReducer/TEST",
+};
