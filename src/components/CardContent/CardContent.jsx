@@ -6,7 +6,6 @@ import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {cardData} from "../../redux/selectors";
 import {changeMessageCardItem, changeNameCardItem} from "../../redux/thunkCreators/mainTC";
 import {Button, Icon} from 'antd';
-import 'antd/dist/antd.css';
 
 function CardContent(props) {
     let history = useHistory();

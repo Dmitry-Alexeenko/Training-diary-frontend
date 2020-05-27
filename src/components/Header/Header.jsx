@@ -3,7 +3,6 @@ import {NavLink} from "react-router-dom";
 import {connect} from "react-redux";
 import {logoutOnService} from "../../redux/thunkCreators/initializeApp";
 import {Button, Icon} from 'antd';
-import 'antd/dist/antd.css';
 import styles from '../../styles/Header.module.scss';
 
 

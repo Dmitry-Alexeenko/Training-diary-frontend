@@ -20,7 +20,48 @@ export const Login = () => {
         dispatch(loginOnService({login, password}))
     }
     return (
-        <div className={styles.login}>
+
+        <div className="row">
+            <div className="col s12 m8 offset-m2">
+                <div className="card blue-grey darken-1">
+
+                    <div className="card-content white-text ">
+                        <span className="card-title">Дневник тренировок</span>
+                        <div style={{marginTop: '30px'}}>
+                            <div className="input-field">
+                                <input id="first_name2" type="email" className="validate"/>
+                                <label className="active" htmlFor="first_name2">Email</label>
+                            </div>
+
+                            <div className="input-field ">
+                                <input id="first_name2" type="password" className="validate"/>
+                                <label className="active" htmlFor="first_name2">Password</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card-action">
+                        <button
+                            className='btn yellow darken-4'
+                            style={{marginRight: 10}}
+                            //disabled={loading}
+                            //onClick={loginHandler}
+                        >
+                            Войти
+                        </button>
+
+                        <button
+                            className='btn grey lighten-1 dark-text'
+                            //onClick={registerHandler}
+                            //disabled={loading}
+                        >
+                            Регистрация
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
 
             <h4>Дневник тренировок</h4>
 
