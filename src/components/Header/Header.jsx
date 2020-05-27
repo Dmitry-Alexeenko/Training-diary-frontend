@@ -2,7 +2,6 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 import {connect} from "react-redux";
 import {logoutOnService} from "../../redux/thunkCreators/initializeApp";
-import {Button, Icon} from 'antd';
 import styles from '../../styles/Header.module.scss';
 
 
@@ -21,10 +20,10 @@ function Header(props) {
                 {profile &&
                 <div>
                     <span className={styles.Header__name}>{profile.name}</span>
-                    <Button type="default" size={"default"} shape={'round'} onClick={logoutOnService}
+                    <button type="default"  onClick={logoutOnService}
                             className={styles.Header__btn}>
-                        <Icon type="logout" className={styles.Header__icon}/>
-                    </Button>
+                       выйти
+                    </button>
                 </div>}
             </div>
         </div>

@@ -5,7 +5,6 @@ import styles from '../../styles/CardContent.module.scss';
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {cardData} from "../../redux/selectors";
 import {changeMessageCardItem, changeNameCardItem} from "../../redux/thunkCreators/mainTC";
-import {Button, Icon} from 'antd';
 
 function CardContent(props) {
     let history = useHistory();
@@ -132,9 +131,9 @@ function CardContent(props) {
                     </div>
                     }
 
-                    <Button type="default" size={"normal"} onClick={back} className={styles.cardContent__btn}>
-                        <Icon type="close"/>
-                    </Button>
+                    <button  onClick={back} >
+                        закрыть
+                    </button>
 
                 </div>
             </div>
